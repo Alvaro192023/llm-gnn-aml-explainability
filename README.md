@@ -40,6 +40,10 @@ codigo/evaluar_explicabilidad.py --parte recall|fidelidad       # H2
 
 Global seed 42. All decisions are logged in the project decision log (see paper Sec. 3.7). Deterministic factuality verification: `generar_sar.verificar_factualidad`.
 
+## SAR corpus (open data)
+
+`corpus/h3_corpus_sars.jsonl` — the full 248-narrative SAR corpus (62 cases × 4 model/condition arms) with per-narrative deterministic verification. Regenerated 2026-07-05 under the paper's pinned configuration after the original ephemeral-runtime corpus was lost (decision log D022/D023); its own verifier statistics replicate the paper's (contract vs raw: 0.27 vs 8.65 hallucinations/SAR, 32× in this sample vs 21× reported). See `corpus/README_corpus.md` for schema, statistics, and SHA-256.
+
 ## Reproducibility notes
 
 - Detector experiments (propagation family) run on CPU; end-to-end GINe/GCN replication runs on a single T4 GPU (Colab).
