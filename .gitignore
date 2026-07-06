@@ -1,0 +1,39 @@
+# --- Datos crudos y procesados: NO redistribuir (licencias Kaggle) ---
+data/
+datos/
+*.npz
+*.npy
+*.parquet
+HI-Small_*.csv
+elliptic_txs_*.csv
+*.zip
+
+# --- Secretos: JAMAS subir ---
+api_key.txt
+*.key
+.env
+*credentials*
+*token*
+
+# --- Modelos entrenados (pesados) ---
+*.pt
+*.pth
+*_modelo_*.json
+ibm_gnnprop*_modelo*
+
+# --- SARs generados (contienen texto extenso; opcional para el repo) ---
+sars/
+h3_resultados.jsonl
+
+# --- Temporales ---
+__pycache__/
+*.pyc
+_seccion_*.txt
+_chunks/
+.ipynb_checkpoints/
+_manifiesto_evaluacion_M7.json
+
+# Excepcion: SI se versionan los artefactos ligeros derivados
+!artefactos_ligeros/
+!artefactos_ligeros/*.json
+!artefactos_ligeros/*.csv
