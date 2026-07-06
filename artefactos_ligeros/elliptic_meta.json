@@ -1,0 +1,33 @@
+{
+  "artefacto": "elliptic_grafo.npz",
+  "tarea": "clasificacion de nodos",
+  "n_nodos": 203769,
+  "n_aristas": 234355,
+  "n_features": 165,
+  "features": "93 locales + 72 agregadas; SIN time step (D011: evitar atajo temporal); slices: locales=x[:,:93], agregadas=x[:,93:]",
+  "splits_D009": {
+    "train": "steps 1-29",
+    "val": "steps 30-34",
+    "test": "steps 35-49"
+  },
+  "conteos": {
+    "train": {
+      "nodos": 120804,
+      "ilicitas": 2871,
+      "licitas": 23510,
+      "unknown": 94423
+    },
+    "val": {
+      "nodos": 15461,
+      "ilicitas": 591,
+      "licitas": 2922,
+      "unknown": 11948
+    },
+    "test": {
+      "nodos": 67504,
+      "ilicitas": 1083,
+      "licitas": 15587,
+      "unknown": 50834
+    }
+  }
+}

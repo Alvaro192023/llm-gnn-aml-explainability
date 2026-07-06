@@ -1,0 +1,19 @@
+{
+  "aristas": 5078336,
+  "ef_float": "log1p_monto_rec, log1p_monto_pag, misma_moneda, self_transfer, mismo_banco, dias_desde_inicio, hora_sin, hora_cos",
+  "ef_cat": "cur_rec, cur_pag, formato (indices para embeddings)",
+  "splits": {
+    "train": {
+      "tx": 3046859,
+      "lavado": 2297
+    },
+    "val": {
+      "tx": 1015601,
+      "lavado": 1082
+    },
+    "test": {
+      "tx": 1015876,
+      "lavado": 1798
+    }
+  }
+}

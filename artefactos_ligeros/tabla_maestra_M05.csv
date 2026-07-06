@@ -1,0 +1,15 @@
+dataset,modelo,variante,n,pr_auc_media,pr_auc_std,f1_media,f1_std
+elliptic,gnnprop_mlp,af,1,0.6102,,0.601,
+elliptic,gnnprop_xgb,af,3,0.79,0.0,0.7313,0.0
+elliptic,gnnprop_xgb,lf,1,0.78,,0.6937,
+elliptic,lr,af,1,0.2045,,0.3122,
+elliptic,lr,lf,1,0.1824,,0.3894,
+elliptic,rf,af,3,0.7815,0.0052,0.8089,0.0024
+elliptic,rf,lf,1,0.773,,0.7761,
+elliptic,xgb,af,1,0.7878,,0.7634,
+elliptic,xgb,lf,1,0.759,,0.7564,
+ibm,gnnprop_xgb,-,1,0.1278,,0.1922,
+ibm,gnnprop_xgb_v2,-,3,0.5362,0.0239,0.5395,0.0313
+ibm,lr,-,1,0.0259,,0.0558,
+ibm,rf,-,3,0.1247,0.0021,0.1867,0.0069
+ibm,xgb,-,1,0.0807,,0.1285,

@@ -1,0 +1,15 @@
+{
+  "n": 62,
+  "delta_evidencia": {
+    "media": 4.662,
+    "mediana": 4.963,
+    "std": 3.205
+  },
+  "delta_control": {
+    "media": 0.101,
+    "mediana": 0.006
+  },
+  "casos_ev_mayor_ct": 57,
+  "casos_fidelidad_negativa": 6,
+  "wilcoxon_p": 3.1209811872221355e-11
+}

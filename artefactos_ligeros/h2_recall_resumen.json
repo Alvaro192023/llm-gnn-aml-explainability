@@ -1,0 +1,77 @@
+{
+  "n_intentos_evaluados": 62,
+  "recall_evidencia_media": 0.2185,
+  "recall_evidencia_v2_media": 0.4627,
+  "recall_evidencia_v3_media": 0.4876,
+  "recall_pool_cota_superior_media": 0.7269,
+  "recall_aleatorio_media": 0.1331,
+  "recall_recencia_media": 0.6025,
+  "wilcoxon_vs_aleatorio_p": 4.0226992158924743e-10,
+  "wilcoxon_vs_recencia_p": 0.9998552688199216,
+  "por_familia": {
+    "BIPARTITE": {
+      "n": 6,
+      "recall_ev_v1": 0.0,
+      "recall_ev_v2": 0.0,
+      "recall_ev_v3": 0.0,
+      "recall_recencia": 0.0,
+      "cota_pool": 0.0
+    },
+    "CYCLE": {
+      "n": 9,
+      "recall_ev_v1": 0.2831,
+      "recall_ev_v2": 0.3794,
+      "recall_ev_v3": 0.3829,
+      "recall_recencia": 0.4829,
+      "cota_pool": 0.5656
+    },
+    "FAN-IN": {
+      "n": 8,
+      "recall_ev_v1": 0.2659,
+      "recall_ev_v2": 0.6333,
+      "recall_ev_v3": 0.7307,
+      "recall_recencia": 0.9688,
+      "cota_pool": 1.0
+    },
+    "FAN-OUT": {
+      "n": 8,
+      "recall_ev_v1": 0.1816,
+      "recall_ev_v2": 0.6179,
+      "recall_ev_v3": 0.651,
+      "recall_recencia": 0.8796,
+      "cota_pool": 1.0
+    },
+    "GATHER-SCATTER": {
+      "n": 14,
+      "recall_ev_v1": 0.1723,
+      "recall_ev_v2": 0.5663,
+      "recall_ev_v3": 0.6262,
+      "recall_recencia": 0.7079,
+      "cota_pool": 1.0
+    },
+    "RANDOM": {
+      "n": 8,
+      "recall_ev_v1": 0.3179,
+      "recall_ev_v2": 0.4322,
+      "recall_ev_v3": 0.4635,
+      "recall_recencia": 0.4635,
+      "cota_pool": 0.4635
+    },
+    "SCATTER-GATHER": {
+      "n": 7,
+      "recall_ev_v1": 0.3256,
+      "recall_ev_v2": 0.5273,
+      "recall_ev_v3": 0.4498,
+      "recall_recencia": 0.6311,
+      "cota_pool": 0.8688
+    },
+    "STACK": {
+      "n": 2,
+      "recall_ev_v1": 0.094,
+      "recall_ev_v2": 0.094,
+      "recall_ev_v3": 0.0556,
+      "recall_recencia": 0.094,
+      "cota_pool": 0.094
+    }
+  }
+}

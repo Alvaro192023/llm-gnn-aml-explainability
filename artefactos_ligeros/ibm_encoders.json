@@ -1,0 +1,32 @@
+{
+  "filas_post_dup": 5078336,
+  "duplicados_eliminados": 9,
+  "n_entidades": 515088,
+  "clave_compuesta_banco_cuenta": true,
+  "monedas": [
+    "US Dollar",
+    "Euro",
+    "Swiss Franc",
+    "Yuan",
+    "Shekel",
+    "Rupee",
+    "UK Pound",
+    "Ruble",
+    "Yen",
+    "Bitcoin",
+    "Canadian Dollar",
+    "Australian Dollar",
+    "Mexican Peso",
+    "Saudi Riyal",
+    "Brazil Real"
+  ],
+  "formatos": [
+    "Cheque",
+    "Credit Card",
+    "ACH",
+    "Cash",
+    "Reinvestment",
+    "Wire",
+    "Bitcoin"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "modelo": "canonico v2 (hops2, neg50, s42)",
+  "ambas_entidades_nuevas": {
+    "n_tx": 81,
+    "positivos": 0,
+    "prevalencia": 0.0,
+    "pr_auc": null
+  },
+  "alguna_entidad_vista": {
+    "n_tx": 1015795,
+    "positivos": 1798,
+    "prevalencia": 0.00177,
+    "pr_auc": 0.5638
+  },
+  "alguna_con_lavado_en_train": {
+    "n_tx": 112624,
+    "positivos": 423,
+    "prevalencia": 0.00376,
+    "pr_auc": 0.4904
+  },
+  "vistas_sin_lavado_previo": {
+    "n_tx": 903171,
+    "positivos": 1375,
+    "prevalencia": 0.00152,
+    "pr_auc": 0.5962
+  }
+}
