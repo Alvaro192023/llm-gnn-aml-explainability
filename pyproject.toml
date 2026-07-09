@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-gnn-aml-explainability"
+version = "1.0.0"
+description = "LLM-Enhanced GNNs for Explainable Financial Fraud Detection (reproducibility package)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Alvaro Villanueva Kobayashi" }]
+keywords = ["graph-neural-networks", "anti-money-laundering", "explainable-ai", "llm", "mlops"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.5", "pytest-cov>=5.0"]
+
+[tool.setuptools]
+packages = ["codigo"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

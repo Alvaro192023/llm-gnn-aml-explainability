@@ -1,18 +1,18 @@
-# Analisis y datos (CPU)
-numpy>=1.26
-pandas>=2.1
-pyarrow>=15.0
-scipy>=1.11
-scikit-learn>=1.4
-imbalanced-learn>=0.12
-xgboost>=2.0
-networkx>=3.2
-matplotlib>=3.8
-seaborn>=0.13
-tqdm>=4.66
-# GNN end-to-end (GPU / Colab)
-torch>=2.1
-torch_geometric>=2.5
-# Capa generativa (LLM)
-anthropic>=0.40
-httpx[socks]>=0.27
+# ── Analisis y datos (CPU) ──
+numpy==1.26.4
+pandas==2.2.2
+pyarrow==15.0.2
+scipy==1.13.1
+scikit-learn==1.4.2
+imbalanced-learn==0.12.3
+xgboost==2.0.3
+networkx==3.3
+matplotlib==3.8.4
+seaborn==0.13.2
+tqdm==4.66.4
+# ── GNN end-to-end (GPU / Colab) ──
+torch==2.3.1
+torch_geometric==2.5.3
+# ── Capa generativa (LLM) ──
+anthropic==0.40.0
+httpx[socks]==0.27.0
