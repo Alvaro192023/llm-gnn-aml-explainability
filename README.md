@@ -1,5 +1,10 @@
 # LLM-Enhanced GNNs for Explainable Financial Fraud Detection
 
+[![CI](https://github.com/Alvaro192023/llm-gnn-aml-explainability/actions/workflows/ci.yml/badge.svg)](https://github.com/Alvaro192023/llm-gnn-aml-explainability/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21230449-1a5490.svg)](https://doi.org/10.5281/zenodo.21230449)
+
 Reproducibility package for the paper *"LLM-Enhanced Graph Neural Networks for Explainable Financial Fraud Detection: Generating Auditable Suspicious Activity Reports"* (Villanueva Kobayashi, 2026; under review).
 
 A pipeline that (i) detects money-laundering transactions with a scalable propagation GNN, (ii) extracts model-faithful evidence with exact neighbor contributions, (iii) generates regulatory Suspicious Activity Report (SAR) narratives under an evidence contract, and (iv) evaluates the explanations on two axes — faithfulness (deletion fidelity) and plausibility (typology recovery) — plus SAR factuality.
